@@ -9,7 +9,7 @@ function destructivelyAddElementToBeginningOfArray(a, b) {
 }
 
 function addElementToEndOfArray(a, b) {
-  c = [...a, "b"]
+  c = [...a, b]
   return c
 }
 
