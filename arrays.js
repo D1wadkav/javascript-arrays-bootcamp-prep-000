@@ -22,6 +22,6 @@ function accessElementInArray(a, b) {
   return console.log(a[b]);
 }
 
-function destructivelyRemoveElementFromBeginningOfArray() {
+function destructivelyRemoveElementFromBeginningOfArray(a) {
   return 
 }
