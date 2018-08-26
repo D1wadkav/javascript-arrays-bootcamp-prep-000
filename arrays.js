@@ -8,3 +8,5 @@ function destructivelyAddElementToBeginningOfArray(a, b) {
   a = ["b", ...a]
   return a
 }
+
+addElementToEndOfArray
