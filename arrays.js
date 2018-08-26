@@ -5,8 +5,14 @@ function addElementToBeginningOfArray(a, b) {
 }
 
 function destructivelyAddElementToBeginningOfArray(a, b) {
-  a = ["b", ...a]
-  return a
+  c = ["b", ...a]
+  return c
 }
 
-addElementToEndOfArray
+function addElementToEndOfArray(a, b) {
+  return a.unshift("b")
+}
+
+function destructivelyAddElementToEndOfArray(a, b) {
+  
+}
